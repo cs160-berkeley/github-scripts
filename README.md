@@ -7,6 +7,7 @@ This repository contains the shell and pearl scripts for managing an organizatio
 * Visit [GitHub Education](https://education.github.com/) to request of an advanced organization plan. We received a diamond plan with 300 private repos.
 * Add GSIs as owners.
 * See [GitHub Help](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) on _Creating an access token for command-line use_
+# Set up [Perlbrew](http://perlbrew.pl/)
 
 ## Adding Members to a GitHub Organization
 
@@ -26,10 +27,10 @@ Be sure to change the script access permission via `chmod a+x`
 
 ## Tagging Repos
 
-Run `get_repos.pl` to automatically tag all the private repos to lock the submitted version.
+Run `tag_repos.pl` to automatically tag all the private repos to lock the submitted version.
 
 ```
-./get_repos.pl your_github_token your_org_id
+./tag_repos.pl your_github_token your_org_id
 ```
 
 ## Reference
