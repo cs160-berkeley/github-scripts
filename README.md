@@ -22,10 +22,10 @@ handy perl installation management tool on Mac.
 (https://classroom.github.com/) to set up a link that students can create
 individual repos based on an assigned template.
 
-## Adding members to a GitHub organization
+## Adding members to an organization
 
-`invite_user.sh` automatically retrieves a list of GitHub usernames from a text
-file and adds user one by one to an organization. Added members will need to
+`invite_user.sh` retrieves a list of GitHub usernames from a text
+file and adds users to an organization. Added members will need to
 accept the invitation via email notification sent by GitHub or visit the
 organization page (e.g.,
 [https://github.com/cs160-sp16](https://github.com/cs160-sp16)).
