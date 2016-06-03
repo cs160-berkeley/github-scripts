@@ -55,8 +55,8 @@ info.
 
 ## Contact
 
-Peggy Chi (peggychi@cs.berkeley.edu)
+[Peggy Chi](https://github.com/peggychi/) (peggychi@cs.berkeley.edu)
 
 ## Acknowledgments
 
-Senpo Hu for helping build up the scripts
+[Senpo Hu](https://github.com/senpo) for helping build up the scripts

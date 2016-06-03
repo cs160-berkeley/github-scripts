@@ -1,5 +1,6 @@
 #!/usr/bin/perl -w
-# Set target private repos to public
+#
+# Change repo visibility: set target private repos to public.
 
 use JSON::Parse 'parse_json';
 
