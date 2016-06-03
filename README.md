@@ -17,7 +17,7 @@ then release the next assignment with private repos.)
 * Follow [GitHub
 Help](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) for _Creating an access token for command-line use_
 * Set up your bash or Perl environment. [Perlbrew](http://perlbrew.pl/) is a
-useful management tool.
+handy perl installation management tool on Mac.
 * For each assignment, consider using [GitHub Classroom]
 (https://classroom.github.com/) to set up a link that students can create
 individual repos based on an assigned template.
