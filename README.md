@@ -6,7 +6,7 @@ organization and repositories on GitHub used for [CS160 Spring
 
 ## Prerequisite
 
-* Visit [GitHub Education](https://education.github.com/) to request of an
+* Visit [GitHub Education](https://education.github.com/) to request an
 advanced organization plan. For the Spring 2016 class, we received a diamond
 plan that allows up to 300 private repos.
 * Add GSIs as owners.
@@ -15,6 +15,9 @@ Help](https://help.github.com/articles/creating-an-access-token-for-command-
 line-use/) for _Creating an access token for command-line use_ # Set up your
 shell or perl environment. [Perlbrew](http://perlbrew.pl/) is a useful
 management tool.
+* For each assignment, consider using [GitHub Classroom]
+(https://classroom.github.com/) to set up a link that students can create
+individual repos based on an assigned template.
 
 ## Adding members to a GitHub organization
 
