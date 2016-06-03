@@ -1,4 +1,4 @@
-# Scripts for GitHub Management
+# Scripts for GitHub Organization Management
 
 This repository contains the shell and pearl scripts for managing an
 organization and repositories on GitHub used for [CS160 Spring
@@ -7,8 +7,12 @@ organization and repositories on GitHub used for [CS160 Spring
 ## Prerequisite
 
 * Visit [GitHub Education](https://education.github.com/) to request an
-advanced organization plan. For the Spring 2016 class, we received a diamond
-plan that allows up to 300 private repos.
+advanced organization plan.
+** For the Spring 2016 class, we received a diamond plan that allows up to 300
+private repos.
+** Given a class of 200+ students, our strategy was to release assignments one
+by one (i.e., once done grading, we make all graded private repos public. We
+then release the next assignment with private repos.)
 * Add GSIs as owners.
 * Follow [GitHub
 Help](https://help.github.com/articles/creating-an-access-token-for-command-
