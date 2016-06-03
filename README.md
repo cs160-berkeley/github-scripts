@@ -1,26 +1,20 @@
 # Scripts for GitHub Management
 
-This repository contains the shell and pearl scripts for managing an organization on GitHub.
+This repository contains the shell and pearl scripts for managing an organization and repositories on GitHub used for CS160 Spring 2016.
 
 ## Prerequisite
 
-* Visit [GitHub Education](https://education.github.com/) to request of an advanced organization plan. We received a diamond plan with 300 private repos.
+* Visit [GitHub Education](https://education.github.com/) to request of an advanced organization plan. For the Spring 2016 class, we received a diamond plan that allows up to 300 private repos.
 * Add GSIs as owners.
-* See [GitHub Help](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) on _Creating an access token for command-line use_
-# Set up [Perlbrew](http://perlbrew.pl/)
+* Follow [GitHub Help](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) for _Creating an access token for command-line use_
+# Set up your shell or perl environment. [Perlbrew](http://perlbrew.pl/) is a useful management tool.
 
 ## Adding Members to a GitHub Organization
 
-Run `invite_user.sh` to automatically retrieve a list of GitHub usernames from a text file and add to an organization. Added members will received an email notification. They can also visit the organization page (e.g., [https://github.com/cs160-sp16](https://github.com/cs160-sp16)) to accept the invitation.
+`invite_user.sh` automatically retrieves a list of GitHub usernames from a text file and adds user one by one to an organization. Added members will need to accept the invitation via email notification sent by GitHub or visit the organization page (e.g., [https://github.com/cs160-sp16](https://github.com/cs160-sp16)).
 
 ```
-./invite_user.sh your_github_token your_org_id filename
-```
-
-Example:
-
-```
-./invite_user.sh your_github_token cs160-sp16 students0128
+./invite_user.sh your_github_token your_org_id filename_of_student_list
 ```
 
 Be sure to change the script access permission via `chmod a+x`
