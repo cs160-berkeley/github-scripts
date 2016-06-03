@@ -25,9 +25,12 @@ Example:
 
 Be sure to change the script access permission via `chmod a+x`
 
-## Tagging Repos
+## Managing Repos
 
-Run `tag_repos.pl` to automatically tag all the private repos to lock the submitted version.
+Note: This requires having a perl module to read json content.
+
+* `tag_repos.pl` tags target private repos to label the submitted version.
+* `set_public.pl` sets target private repos to public.
 
 ```
 ./tag_repos.pl your_github_token your_org_id
@@ -43,4 +46,4 @@ Peggy Chi (peggychi@cs.berkeley.edu)
 
 ## Acknowledgments
 
-Senpo Hu for building up the scripts
+Senpo Hu for helping build up the scripts
