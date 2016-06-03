@@ -27,10 +27,10 @@ Be sure to change the script access permission via `chmod a+x`
 
 ## Managing Repos
 
-Note: This requires having a perl module to read json content.
+Note: This requires having a perl module that reads json content.
 
 * `tag_repos.pl` tags target private repos to label the submitted version.
-* `set_public.pl` sets target private repos to public.
+* `set_public.pl` changes the visibility of target private repos to public.
 
 ```
 ./tag_repos.pl your_github_token your_org_id
