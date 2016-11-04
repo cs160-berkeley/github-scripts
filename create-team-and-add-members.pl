@@ -23,6 +23,8 @@ open(my $data, '<', $file) or die "Could not open '$file' $!\n";
 my $header_line = <$data>;
 my @headers = split "," , $header_line;
 
+my $year = "FA16";
+
 my %membersOfGroup;
 
 while (my $line = <$data>) {
@@ -47,7 +49,7 @@ for my $group (sort {$a <=> $b} keys %membersOfGroup) {
   my $teamName = "Group $group";
 
   print "Create a new team : $teamName\n";
-  my $jsonResponse = `curl -s -H "Authorization: token $token" -H "Content-type: application/json" -X POST -d '{"name": "$teamName", "description": "CS160 SP16 $teamName", "privacy": "secret"}' "$githubUrl/orgs/$orgName/teams"`;
+  my $jsonResponse = `curl -s -H "Authorization: token $token" -H "Content-type: application/json" -X POST -d '{"name": "$teamName", "description": "CS160 $year $teamName", "privacy": "secret"}' "$githubUrl/orgs/$orgName/teams"`;
   my $perlResponse = parse_json $jsonResponse;
   my $teamId = $perlResponse->{'id'};
   print "$teamName,$teamId\n";
