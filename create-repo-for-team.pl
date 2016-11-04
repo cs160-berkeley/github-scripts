@@ -1,7 +1,12 @@
 #!/usr/bin/perl
 #
-# Create team repo for each team.
-# This requires a csv file that contains team names and team IDs.
+# Create a team repo for each team.
+# This requires a csv file that contains team names and team Ids.
+# Note: create-team-and-add-members.pl prints the team Ids.
+#
+# Example csv format (showing the header and a sample row):
+# Team Name, Team Id
+# Group 0, 1991963
 
 use strict;
 use warnings;

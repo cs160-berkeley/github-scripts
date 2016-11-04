@@ -3,6 +3,10 @@
 # Create new teams under an organization and add team members.
 # This requires a csv file that contains a list of student info
 # that each includes a team number and github username.
+#
+# Example csv format (showing the header and a sample row):
+# Team number,Student name,GitHub username
+# 1,Studen Name A,username_a
 
 use strict;
 use warnings;

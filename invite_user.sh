@@ -1,4 +1,5 @@
 #!/bin/bash
+# Input file: a list of GitHub usernames (one username per line)
 
 github_token=$1
 github_org=$2
