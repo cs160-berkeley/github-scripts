@@ -3,6 +3,8 @@
 # Deletes all organization repos that are listed in a csv.
 # This requires a csv file that contains the names of all the repos to delete.
 #
+# NOTE: Be sure to inform students in advance that you will be deleting the repo! That way they can save a local copy, or transfer the repo.
+#
 # Example csv format (showing the header and a sample row):
 # Repo Name,
 # Group-0-Project
